@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Coming+Soon&display=swap');
+
+:root {
+     --secondary-color: #FCE7F3;
+     --primary-color: #F472B6;
+     --text: #831843;
+     --heading: 'Coming Soon', cursive;
+     --normal: 'Indie Flower', cursive;
+     --letter-space: 0.1rem;
+}
+
+body {
+     font-family: var(--heading);
+     margin: 0.5rem;
+     background-color: var(--secondary-color);
+     box-sizing: border-box;
+}
+
+hr {
+     margin: 2.2rem 13rem;
+     background-color: var(--text);
+     height: 0.1rem;
+}
+
+/* container */
+.container {
+     padding: 0rem 1rem;
+}
+
+.container-center {
+     max-width: 600px;
+     margin: auto;
+}
+
+/* links */
+
+.link {
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     box-sizing: border-box;
+}
+
+.link-primary {
+     background-color: var(--primary-color);
+     color: white;
+     border-radius: 5rem;
+     font-weight: bolder;
+}
+
+.link-secondary {
+     color: var(--text);
+     font-weight: bolder;
+     border: 0.1rem solid var(--primary-color);
+     border-radius: 10rem;
+}
+
+/* lists */
+.list-non-bullet {
+     list-style: none;
+}
+
+.list-item-inline {
+     display: inline;
+     padding: 0rem 0.5rem;
+}
+
+/* nav */
+.navigation {
+     background-color: var(--primary-color);
+     color: white;
+     padding: 1rem;
+     border-inline: 15px solid var(--text);
+     border-top-style: ridge;
+     border-bottom-style: ridge;
+     border-bottom-left-radius: 7rem;
+     border-top-left-radius: 1.6rem;
+     border-top-right-radius: 7rem;
+     border-bottom-right-radius: 1.6rem;
+}
+
+.nav-brand {
+     font-weight: bold;
+     font-size: 1.9rem;
+     font-family: var(--normal);
+     letter-spacing: 0.2rem;
+}
+
+/* .nav-brand img {
+     margin-left: 1rem;
+     padding-left: 1rem;
+     width: 4rem;
+     height: 4rem;
+     display: inline;
+} */
+
+.navpills {
+     text-align: right;
+}
+
+.navpills a:hover {
+     color: var(--text);
+     font-weight: bolder;
+}
+
+.navigation .link {
+     color: white;
+     font-family: var(--normal);
+     font-size: 1.5rem;
+     letter-spacing: var(--letter-space);
+}
+
+.active {
+     font-weight: bolder;
+     color: var(--text) !important;
+}
+
+/* header */
+.header {
+     padding: 2rem;
+     font-family: var(--normal);
+}
+
+.highlight {
+     color: var(--primary-color);
+     font-weight: bolder;
+}
+
+img {
+     max-width: 350px;
+     display: block;
+     margin: auto;
+}
+
+.text {
+     color: var(--text);
+     text-align: center;
+     letter-spacing: var(--letter-space);
+     font-family: var(--normal);
+     font-size: 2rem;
+}
+
+.blog-text {
+     font-weight: bolder;
+     color: var(--primary-color);
+     font-size: 1.2rem;
+}
+
+/* section */
+
+.section {
+     padding: 2rem;
+}
+
+.section h3 {
+     text-align: center;
+     font-weight: bolder;
+}
+
+.card {
+     color: var(--primary-color);
+}
+
+.pink-section {
+     border-inline: 3px solid var(--primary-color);
+     border-radius: 3rem;
+}
+
+.off-white-section {
+     background-color: rgb(240, 240, 240);
+     border-radius: 3rem;
+     border-block: 3px solid var(--text);
+}
+
+.section p {
+     /* line-height: 2.3rem; */
+     font-size: 1.2rem;
+     font-weight: bold;
+}
+
+.project-card {
+     border: 4px solid var(--text);
+     border-radius: 8rem;
+     background-color: white;
+     border-block-end: none;
+     border-block-start: none;
+}
+
+.project-card-2 {
+     border: 4px solid var(--primary-color);
+     border-radius: 8rem;
+     border-inline-end: none;
+     border-inline-start: none;
+     margin: 1rem 0rem 1rem 0rem;
+}
+
+/* footer */
+
+.footer {
+     background-color: var(--primary-color);
+     padding: 1rem;
+     text-align: center;
+     color: white;
+     border-top-right-radius: 1.2rem;
+     margin-top: 1.2rem;
+     font-family: var(--normal);
+     letter-spacing: var(--letter-space);
+     border-inline: 15px solid var(--text);
+     border-top-style: ridge;
+     border-bottom-style: ridge;
+     border-bottom-left-radius: 1.6rem;
+     border-top-left-radius: 7rem;
+     border-top-right-radius: 1.6rem;
+     border-bottom-right-radius: 7rem;
+     font-size: 1.2rem;
+}
+
+.footer ul {
+     padding-inline-start: 0px;
+}
+
+.footer .link {
+     color: white;
+}
+
+.footer-header {
+     text-align: right;
+     font-weight: bolder;
+     font-size: 2rem;
+}
+
+.social-links {
+     text-align: left;
+     font-size: 1.6rem;
+     /* font-weight: bold; */
+}
+
+.social-links a:hover {
+     color: var(--text);
+     font-weight: bolder;
+}

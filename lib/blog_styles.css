@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap&family=Baloo+Tammudu+2:wght@600&family=Bungee+Shade&display=swap');
+
+:root {
+    --text: 'Baloo Tammudu 2', cursive;
+    --heading: 'Bungee Shade', cursive;
+    --p: 'Quicksand', sans-serif;
+    ;
+}
+
+body {
+    margin-top: 3rem;
+    font-family: var(--text);
+    background-color: #E5E7EB;
+    font-weight: lighter;
+}
+
+/* container */
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* header */
+header {
+    font-family: var(--heading);
+    font-size: 0.88rem;
+}
+
+header small {
+    font-family: var(--text);
+    font-size: 1.2rem;
+}
+
+header img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+/* section */
+section {
+    padding: 1rem;
+}
+
+section h3 {
+    font-size: 1.6rem;
+    margin: 0rem;
+    padding: 0rem;
+    color: #374151;
+}
+
+section p {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: var(--p);
+    font-weight: 600;
+}
+
+/* footer */
+
+footer h1 {
+    text-align: center;
+    font-family: var(--heading);
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: 0rem;
+}
+
+footer li {
+    display: inline;
+    padding: 3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
