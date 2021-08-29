@@ -238,3 +238,15 @@ img {
      color: var(--text);
      font-weight: bolder;
 }
+
+@media (max-width:600px) {
+     .list-item-inline {
+          display: block;
+     }
+
+     .link {
+          display: block;
+          text-align: center;
+          margin: 0.5rem;
+     }
+}
