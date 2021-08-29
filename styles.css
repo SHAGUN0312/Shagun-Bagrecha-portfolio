@@ -79,10 +79,8 @@ hr {
 }
 
 .nav-brand {
-     font-weight: bold;
      font-size: 1.9rem;
      font-family: var(--normal);
-     letter-spacing: 0.2rem;
 }
 
 /* .nav-brand img {
